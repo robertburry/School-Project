@@ -34,24 +34,6 @@ boundaryField
         type            pressureInletOutletVelocity;
         value           $internalField;
     }
-	/*
-   top 
-   { 
-	type       	fixedValue;
-	value 		(1 0 0);
-   }
-
-   bottom
-   {
-	type 		fixedValue;
-	value 		(1 0 0);
-   }
-
-   frontAndBack
-   {
-	type 		empty;
-   }	
-	*/
 }
 
 // ************************************************************************* //

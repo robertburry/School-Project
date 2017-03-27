@@ -26,11 +26,9 @@ porosity1
         cellZone        porousBlockage;
 
         type            DarcyForchheimer;
-
-        // D 100;  // Very little blockage
-        // D 200;  // Some blockage but steady flow
-         D 500;  // Slight waviness in the far wake
-        // D 1000; // Fully shedding behavior
+        
+        D 500;  
+        
 
         DarcyForchheimerCoeffs
         {
